@@ -30,7 +30,16 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+
+# (20) - Para instalar as configurações e os comportamentos
+# do nosso app dentro do projeto precisamos inseri-lo dentro da lista
+# INSTALLED_APPS do nosso projeto
+# para fazer isso iremos colocar "polls.apps.PollsConfig" dentro da lista  
+# (lição 21 dentro de models.py do nosso app)
+
+
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

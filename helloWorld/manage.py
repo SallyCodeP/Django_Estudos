@@ -41,4 +41,5 @@ if __name__ == '__main__':
     # (17)-Agora iremos conferir se todas as dependencias do gerenciador de db
     # do nosso app estão instaladas e funcionando, para isso iremos usar o comando
     # "python3 manage.py migrate"
+    # lição 18 está no "models.py"
     main()
