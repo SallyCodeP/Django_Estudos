@@ -1,0 +1,98 @@
+body {
+    background-color: #102E4A;
+}
+
+#main_hader {
+    background-color: #A682FF;
+    position: absolute;
+    width: 100% ;
+    height: 20%;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+#potions {
+    margin-left: 10%;
+    border-radius: 15em;
+    border: none;
+    width: 8%;
+    height: 75%
+}
+
+#potions_img {
+    width: 72%;
+}
+
+
+#items {
+    margin-left: 15%;
+    border-radius: 15em;
+    border: none;
+    width: 8%;
+    height: 75%
+}
+
+#items_img {
+    width: 72%;
+}
+
+
+#varinhas {
+    margin-left: 15%;
+    border-radius: 15em;
+    border: none;
+    width: 8%;
+    height: 75%
+}
+
+#varinhas_img {
+    width: 72%;
+}
+
+
+#user {
+    margin-left: 20%;
+    margin-top: 1.5em;
+    border-radius: 15em;
+    border: none;
+    width: 8%;
+    height: 75%
+}
+
+#user_img {
+    width: 72%;
+}
+
+#rodape {
+    position: absolute;
+    left: 0px;
+    top: 98%;
+    width: 100%;
+    height: 2%;
+    background-color:#A682FF;
+}
+
+#title {
+    color: white;
+    width: 2em;
+    height: 2em;
+}
+
+#itemsText {
+    color: white;
+    
+}
+
+#pocText {
+    color: white;
+}
+
+#varinhasText {
+    color: white;
+}
+
+#descritionText {
+    color: white;
+}
