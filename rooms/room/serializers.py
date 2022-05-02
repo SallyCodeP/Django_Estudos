@@ -9,3 +9,10 @@ class ClientSerializer(serializers.ModelSerializer):
         model = models.Client
         fields = ['name', 'psw']
         # fields = '__all__'
+
+
+class CreateClientSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = models.Client
+        fields = ['name']
