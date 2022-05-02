@@ -1,16 +1,16 @@
+from posixpath import basename
 from django.db import models
 
 # Create your models here.
 
-class User(models.Model):
-    id = models.AutoField(primary_key=True)
+class Client(models.Model):
     name = models.CharField(max_length=255, db_index=True)
     psw = models.CharField(max_length=255, db_index=True)
 
 
 class connect_user(models.Model):
-    user = models.ForeignKey(User, on_delete=models.PROTECT)
-    ip = models.IPAddressField()
+    user = models.ForeignKey(Client, on_delete=models.PROTECT, basename='client')
+    ip = models.GenericIPAddressField()
     photo = models.ImageField()
     online = models.BooleanField()
     in_call = models.BooleanField()
