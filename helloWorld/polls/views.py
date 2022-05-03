@@ -16,4 +16,4 @@ from django.http import HttpResponse
 
 
 def init(request):
-    return HttpResponse("Hello World!") 
+    return render(request, "to_test.html")
